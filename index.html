@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AutoSave Textarea</title>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="wrapper" class="wrapper">
+      <div id="box" class="box">
+        <h1>Auto Save TextArea</h1>
+        <textarea
+          name="text"
+          id="textarea"
+          cols="30"
+          rows="10"
+          placeholder="Hey! Enter Something to Save"
+          FADE
+          data-aos="fade-up"
+        ></textarea>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

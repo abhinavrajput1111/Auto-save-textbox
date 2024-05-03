@@ -1,0 +1,38 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  background-color: cornsilk;
+  justify-content: center;
+  padding-top: 3rem;
+}
+
+h1 {
+  margin-bottom: 2rem;
+  text-align: center;
+  margin-top: 1rem;
+  color: navy;
+}
+
+.box {
+  background-color: plum;
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+  width: 40vw;
+  padding: 15px;
+}
+
+#textarea {
+  color: navy;
+  padding: 1rem;
+  font-weight: 400;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
